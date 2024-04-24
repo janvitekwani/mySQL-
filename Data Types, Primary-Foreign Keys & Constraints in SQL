@@ -1,0 +1,59 @@
+SQL STRUCTURE
+ _ _ _ _ _ _ _ _ _ _ _ _ ____
+|        database           |
+|  |      tables        |   |
+|  |    |   data     |  |   |
+
+      datatypes : data type of a column defines what value the 
+                 colmun can store in table 
+             defined while creating tables in database
+            data types mainly classified into three categories + most used
+             .string :char , varchar, etc
+             . numeric : int , float , bool etc
+            . date and time, date, datetime etc
+
+
+primary- primary is the unique column identity key and it should not be null 
+and foreign keys - foregin keys is the table used to link two or more tables together 
+               a table can have any number of foreign keys , can contain duplicate and NULL values
+
+
+CONSTRAINTS:
+  .constraints are used o specify rules for data in a table 
+  .this ensures the accuracy and reliablity of the data in the table 
+  .constraints can be specified when the table is created with the create table statement , or
+  .after the table is created with the ALTER TABLE statement 
+  .syntax 
+        create table janvi(
+                       column1 datatype constraint,
+                       column2 datatype constraint,
+                      column 3 datatype constraint.
+                    );
+
+commonly used constraints in SQL 
+  not null - ensures that a colimn can't have a NULL value 
+  unique - ensures that all values in a column are different
+  primary key - a combination of a not null and unique
+  check - ensures that the values in a column satisfies a specific condition
+  default - sets a default value for a colunm if no value is specified 
+  create index- used to create and retrieve data from the data very quickly
+
+
+
+CREATE TABLE :
+
+      the create table statement is used to create a new table in a database
+     .syntax 
+             CREATE TABLE table_name
+            {  
+              col_name1 datatype constraint,
+              col_name1 datatype constraint,
+             col_name1 datatype constraint,
+         };
+
+
+
+
+
+
+  
