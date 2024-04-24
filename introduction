@@ -1,0 +1,33 @@
+# mySQL-
+sql is the most used programming language
+(structured query lanugage)- this helps us to interact with database
+
+- sql is generally used for CRUD (means create read update and delete)
+
+- application of sql
+  sql is used to do the manipulation in the database, database it used to store the data
+
+  what is database?
+  database is a system that allows users to store and organise data
+
+ database is of two types
+   1) relational database (data is stored in form of tables)
+   2) non relational database (data is stored in form of key and value pair )
+
+EXCEL USE CASES
+  .small amount of data 
+  . one time analysis
+  . quick chart / graph 
+  . untrained person
+
+DATABASE USE CASES
+ . large amount of data 
+ . store real time data from web/apps
+ . easily combine with different databases
+ . automate steps and can re-use
+ . easy and safe access
+ . data integerity
+ . deep search capabilites
+
+so we will learn it by using the postgresql     
+  
